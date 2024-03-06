@@ -1,0 +1,291 @@
+:root {
+    --main:#1E0E62;
+  }
+
+body {
+    
+  font-family: "DM Sans", sans-serif;
+  
+}
+
+.main {
+    position: absolute;
+    width: 700px;
+    height: 1719.6px;
+    top: 91px;
+    left: 115px;
+ 
+}
+
+
+
+
+
+.main h3 {
+    width: 700px;
+    height: 104px;
+    top: 91px;
+    left: 115px;
+    color:var(--main);
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+
+}
+
+.date {
+    width: 118px;
+    height: 26px;
+    top: 207px;
+    left: 115px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color:rgba(21, 20, 57, 0.4);  
+    margin-top: -30px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+
+.section p {
+
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:var(--main);
+    font-weight: 600;
+
+}
+
+h5 {
+    color:var(--main);
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: -2px;
+}
+
+.mid-section p{
+
+   
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:  #49494b66;
+
+
+}
+
+.img-1 {
+    width: 700px;
+    height: 400px;
+    top: 648.8px;
+    left: 115px;
+
+}
+
+.article-section {
+    position: absolute;
+    width: 378px;
+    height: 693.6px;
+    top: 94px;
+    left: 915px;
+
+}
+
+.last-seen {
+    width: 90px;
+    height: 26px;
+    top: 94px;
+    left: 915px;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #15143966;
+    margin-bottom: -40px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    padding: 2px;
+    width: 370px;
+    height: 109.6px;
+    top: 138px;
+    left: 915px;
+}
+
+.details-1 {
+    
+    margin-top: -18px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.info {
+    color:var(--main);
+   font-weight: 500;
+
+}
+
+.info-date {
+    color: #15143966;
+    margin-top: -8px;
+
+}
+
+.article-section img {
+    width: 170px;
+    height:105px;
+ 
+
+}
+
+
+.article-section p {
+    width: 181px;
+    height: 78px;
+
+   
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.form-section {
+    position: absolute;
+    width: 340px;
+    height: 136px;
+    top: 833px;
+    left: 915px;
+    margin-top: -60px;
+    border-radius: 10px;
+    border: 2px solid #EBEAED;
+    padding: 40px;
+}
+
+.form-title {
+    
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:var(--main);
+    font-weight: 700;
+
+
+}
+
+.form-desc {
+    color: #15143966;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.textbox-container {
+    margin-top: 20px;
+    width: 220px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-left: 17px;
+
+}
+
+.textbox-container:focus{
+    outline: none !important;
+    border:2px solid rgba(243, 242, 242, 0.986);
+    box-shadow: 0 0 10px #f0f0f0;
+}
+
+.send-button {
+    width: 80px;
+    height: 50px;
+    border-radius: 100px;
+    background-color:  #25DAC5;
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #0e574e;
+}
+
+.popular-section {
+    position: absolute;
+    width: 370px;
+    height: 695.6px;
+    top: 1069px;
+    left: 915px;
+   
+}
+
+.popular-title {
+    width: 90px;
+    height: 26px;
+    top: 94px;
+    left: 915px;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #15143966;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.popular-section img {
+   
+        width: 170px;
+        height:105px;
+}
+
+.load-button {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    top: 1791px;
+    left: 915px;
+    margin-top: -60px;
+    border-radius: 100px;
+    border: none;
+    background-color:  #E93A7D;
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.load-button:hover {
+    background-color: #a32857;
+}
